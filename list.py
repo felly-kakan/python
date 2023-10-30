@@ -11,6 +11,6 @@ numbers.remove(8)
 numbers.pop()
 #clear removes all the values from the list but you dont have to specify the numbers to be removed
 numbers.clear()
-
 print(numbers)
+print("congratulations")
 
