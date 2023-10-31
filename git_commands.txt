@@ -1,0 +1,21 @@
+#intialize
+git init
+
+#add all of files to github
+ git add .
+#add one file at a time
+  git add (name of file)
+# commit one file at a time by generating message
+  git commit -M "WRITE THE MESSSAGE"
+#commiting all  files at once
+  git commit -a -m "WRTE THE MWESSAGE"
+#checking status
+  git status
+#checking the modifications
+ git diff
+# adding files to repository
+ git remote add origin https://github.com/felly-kakan/main.git
+# creating and pushing codes to a branch
+  git branch -M main
+#pushing the file to github 
+ git push -u origin main
