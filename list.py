@@ -9,8 +9,10 @@ numbers.insert(7,12)
 numbers.remove(8) 
 #pop removes the last number
 numbers.pop()
+#printing index of list 
+numbers.index(1)
 #clear removes all the values from the list but you dont have to specify the numbers to be removed
-numbers.clear()
+#numbers.clear()
 print(numbers)
 print("congratulations")
 
